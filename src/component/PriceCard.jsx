@@ -77,7 +77,7 @@ const ListItem = styled.li`
   margin: 30px 0;
 
   @media only screen and (max-width: 765px) {
-    margin: 15px 0;
+    margin: 10px 0;
     font-size: 13px;
   }
 `;
