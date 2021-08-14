@@ -1,5 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import EMAIL from '../Image/email.png';
+import MAP from '../Image/map.png';
+import PHONE from '../Image/smartphone.png';
 
 
 const Contact = () => {
@@ -30,17 +33,17 @@ const Contact = () => {
             }}
           >
             <AddressItem>
-              <Icon src="https://img-premium.flaticon.com/png/512/1865/premium/1865269.png?token=exp=1628898815~hmac=f641be7f51e0f9ebe999321f7a36c4e0" />
+              <Icon src={MAP} />
               <Text>Alexderplazt xx, Berlin, Deutshland</Text>
             </AddressItem>
 
             <AddressItem>
-              <Icon src="https://img-premium.flaticon.com/png/512/2586/premium/2586488.png?token=exp=1628898770~hmac=fd378ca11e7bd285682e2da21f06ece1" />
+              <Icon src={PHONE} />
               <Text>0049 156-18181800</Text>
             </AddressItem>
 
             <AddressItem>
-              <Icon src="https://img-premium.flaticon.com/png/512/2374/premium/2374449.png?token=exp=1628898792~hmac=7044ecb42df94eafd873b67de6e92dbf" />
+              <Icon src={EMAIL} />
               <Text>john@example.com</Text>
             </AddressItem>
           </div>
